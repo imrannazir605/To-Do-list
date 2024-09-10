@@ -1,0 +1,115 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+ 
+  .todo-container {
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 550px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+ 
+  .mcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  #task-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  #add-task-btn {
+    padding: 10px 5px;
+    /* margin-left: 10px; */
+    background-color: #4828a7;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    font-size: 16px;
+  }
+  
+  #add-task-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Task list styling */
+  #task-list {
+    list-style-type: none;
+    padding: 0;
+    border: 2px solid gray;
+  }
+  
+  #task-list li {
+
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    /* justify-content:space-evenly; */
+    align-items: center;
+    font-size: 13px;
+  }
+  
+  /* Checked tasks styling */
+  #task-list li.checked {
+    text-decoration: line-through;
+    color: #999;
+  }
+  
+  /* Delete button (span) styling */
+  .delete-button {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin-left: 350px;
+  }
+  .delete-button:hover {
+    background-color: #8c0613;
+  }
+
+  .edit-button{
+    background-color: #35dc89;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    /* border-radius: 4px; */
+    cursor: pointer;
+  }
+  .edit-button:hover {
+    background-color: #0ce73f;
+  }
+
+  
+  
+  
